@@ -6,11 +6,15 @@ for number in range(0,10):
 
 # we are performing the while loop in our program
 
-trial = 3
-attempt = 0
-
-while attempt < trial:
-    value = input("Enter a password: ")
-    if value == "Maxwell2025":
-    print("log in succesfully")
-    break
+trial=3
+attempt=0
+while attempt<trial:
+    value=input("Enter the Password: ")
+    if value=="Maxwell2025":
+        print("Login successful")
+        break
+    else:
+        print("Your password is wrong try again")
+        attempt+=1
+else:
+    print("You failed your login attempts are over")
