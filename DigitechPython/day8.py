@@ -1,4 +1,4 @@
-# # defining a function
+ # defining a function
 # def get_pass(name, age):
 #     if age <= 17:
 #         return f"{name}, you are not allowed to enter the club."
